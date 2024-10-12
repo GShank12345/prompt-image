@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Prompt-to-Image",
+    "description": "'Prompt-to-Image' extension uses ‘OpenAI’ technology to generate an image based on a text. ",
+    "version": "1.0.0",
+    "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+    "background":[{
+      "service_worker": "ads.js"
+      }],
+        "action": {
+            "default_icon": "icon.png",
+            "default_popup": "mynotes.html"
+        },
+       "permissions": []
+
+}
